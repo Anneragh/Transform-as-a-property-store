@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "self": {
+    "id": "6a0de865-ada2-4aa3-bd10-4b9f7839c54f",
+    "type": "TRANSFORM",
+    "name": "Get OU By Country"
+  },
+  "object": {
+    "id": "6a0de865-ada2-4aa3-bd10-4b9f7839c54f",
+    "name": "Get OU By Country",
+    "type": "trim",
+    "attributes": {
+      "input": {
+        "type": "firstValid",
+        "attributes": {
+          "values": [
+            {
+              "type": "reference",
+              "attributes": {
+                "id": "Properties Get Value by Key"
+              }
+            },
+            {
+              "type": "reference",
+              "attributes": {
+                "id": "Properties Get Value by Key",
+                "input": {
+                  "attributes": {
+                    "value": "adDefaultOu"
+                  },
+                  "type": "static"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "internal": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "self": {
+    "id": "8de2e221-df3d-4a4e-9182-d3cab3f3affa",
+    "type": "TRANSFORM",
+    "name": "Properties Sandbox"
+  },
+  "object": {
+    "id": "8de2e221-df3d-4a4e-9182-d3cab3f3affa",
+    "name": "Properties Sandbox",
+    "type": "lookup",
+    "attributes": {
+      "table": {
+        "test": "test",
+        "OU": "",
+        "TimeZone": ""
+      }
+    },
+    "internal": false
+  }
+}

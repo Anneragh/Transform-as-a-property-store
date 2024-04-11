@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "self": {
+    "id": "cb62a0aa-d2f7-46a6-8917-ce34f6ffdc08",
+    "type": "TRANSFORM",
+    "name": "Properties Get Value by Key"
+  },
+  "object": {
+    "id": "cb62a0aa-d2f7-46a6-8917-ce34f6ffdc08",
+    "name": "Properties Get Value by Key",
+    "type": "lookup",
+    "attributes": {
+      "input": {
+        "type": "reference",
+        "attributes": {
+          "id": "Properties Get Environment"
+        }
+      },
+      "table": {
+        "development": {
+          "type": "reference",
+          "attributes": {
+            "id": "Properties Development"
+          }
+        },
+        "sandbox": {
+          "type": "reference",
+          "attributes": {
+            "id": "Properties Sandbox"
+          }
+        },
+        "production": {
+          "type": "reference",
+          "attributes": {
+            "id": "Properties Production"
+          }
+        }
+      }
+    },
+    "internal": false
+  }
+}

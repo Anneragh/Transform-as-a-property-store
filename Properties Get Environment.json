@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "self": {
+    "id": "fabf3b7f-bf32-4d86-ac9f-bffbe39fbca3",
+    "type": "TRANSFORM",
+    "name": "Properties Get Environment"
+  },
+  "object": {
+    "id": "fabf3b7f-bf32-4d86-ac9f-bffbe39fbca3",
+    "name": "Properties Get Environment",
+    "type": "static",
+    "attributes": {
+      "value": "development"
+    },
+    "internal": false
+  }
+}

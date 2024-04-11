@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "self": {
+    "id": "9dfd9b1d-f110-4a95-89fa-cbd80313ff5a",
+    "type": "TRANSFORM",
+    "name": "Properties Development"
+  },
+  "object": {
+    "id": "9dfd9b1d-f110-4a95-89fa-cbd80313ff5a",
+    "name": "Properties Development",
+    "type": "lookup",
+    "attributes": {
+      "table": {
+        "IN": "OU=USRS,OU=IN,DC=seri,DC=sailpointdemo,DC=com",
+        "SG": "OU=USRS,OU=SG,DC=seri,DC=sailpointdemo,DC=com",
+        "GB": "OU=USRS,OU=UK,DC=seri,DC=sailpointdemo,DC=com",
+        "BE": "OU=USRS,OU=BE,DC=seri,DC=sailpointdemo,DC=com",
+        "US": "OU=USRS,OU=US,DC=seri,DC=sailpointdemo,DC=com",
+        "FR": "OU=USRS,OU=FR,DC=seri,DC=sailpointdemo,DC=com",
+        "CA": "OU=USRS,OU=CA,DC=seri,DC=sailpointdemo,DC=com",
+        "adDefaultOu": "OU=USRS,OU=DEFAULT,DC=seri,DC=sailpointdemo,DC=com",
+        "Employee": "A",
+        "Contractor": "C",
+        "Vendor": "C",
+        "Robot": "R",
+        "cost_center_prefix_for_employees": "AAY22",
+        "cost_center_prefix_for_contractors": "CAY01",
+        "ad_upn_suffix": "@sailpoint.ad.demo.com",
+        "mail_suffix": "@sailpoint.com",
+        "prism_associate_type": "1",
+        "prism_contract_type": "2",
+        "prism_vendor_type": "3",
+        "prism_date_format": "MM-YYYY-dd",
+        "badge_date_format": "YYYY/MM/dd",
+        "serviceNow_date_format": "MM-dd-YYYY",
+        "serviceNow_time_format": "hh:mm:ss",
+        "servcieNow_user_domain": "sailpoint.ad.demo.com",
+        "default": null
+      }
+    },
+    "internal": false
+  }
+}

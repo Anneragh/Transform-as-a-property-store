@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "self": {
+    "id": "e8ce5594-c943-491f-b1b2-1f7a1705fd51",
+    "type": "TRANSFORM",
+    "name": "Get Environment"
+  },
+  "object": {
+    "id": "e8ce5594-c943-491f-b1b2-1f7a1705fd51",
+    "name": "Get Environment",
+    "type": "static",
+    "attributes": {
+      "environment": {
+        "type": "reference",
+        "attributes": {
+          "id": "Environment Store",
+          "input": {
+            "attributes": {
+              "value": "environment"
+            },
+            "type": "static"
+          }
+        }
+      },
+      "value": "$environment"
+    },
+    "internal": false
+  }
+}

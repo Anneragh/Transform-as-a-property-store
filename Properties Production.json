@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "self": {
+    "id": "2f5d2a55-15da-49c8-acba-040d7a1dd656",
+    "type": "TRANSFORM",
+    "name": "Properties Production"
+  },
+  "object": {
+    "id": "2f5d2a55-15da-49c8-acba-040d7a1dd656",
+    "name": "Properties Production",
+    "type": "lookup",
+    "attributes": {
+      "table": {
+        "test": "test",
+        "OU": "",
+        "TimeZone": ""
+      }
+    },
+    "internal": false
+  }
+}
